@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Portal_test</name>
+   <name>MCV</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>c1cb4379-8a4b-44c9-9cce-48b1d36f912a</testSuiteGuid>
+   <testSuiteGuid>bdcfaa11-7455-48f7-b997-c2627630089b</testSuiteGuid>
    <testCaseLink>
-      <guid>a7142988-b27a-4095-9cad-3071a0ac2929</guid>
+      <guid>592a23a2-9109-4aa2-85a4-ccafbf956a46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal/Thanh toán nội địa</testCaseId>
+      <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e7c7ec0-5d3a-40d8-a303-156ef10bb738</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/MCV_QLTK</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
