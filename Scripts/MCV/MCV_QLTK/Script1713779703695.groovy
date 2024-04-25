@@ -25,15 +25,3 @@ WebUI.click(findTestObject('MCV_QLTK_option_ifTK'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('MCV_QLTK_pq'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('MCV_QLTK_pq_chiho'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('MCV_QLTK_pq_QR'))
-
-WebUI.delay(3)
-

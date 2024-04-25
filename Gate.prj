@@ -6,6 +6,8 @@
    <UUID>7cf2e4e9-cc80-4621-b65a-137301aecfaf</UUID>
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\trangntt\Katalon Studio\Gate\Gate.prj</projectFileLocation>
    <sourceContent>
