@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>MCV2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>30769258-9f67-475e-9abe-3f49538a270a</testSuiteGuid>
+   <testCaseLink>
+      <guid>db2f05f0-b919-4f9c-bd1a-9b3af35f3b3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3be262b0-37c6-4e10-9dae-1cd810e1dc91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d9aca29-a1a1-4c9b-a175-2007fa37865e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datalogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>User</value>
+         <variableId>014316a1-1106-4381-b0b7-743933445467</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b50b57b1-e504-48ff-b52c-804b7a96db09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Validate</value>
+         <variableId>eabdb072-ada0-4c85-9d22-d367df345c7f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0c525a0-fc1f-4bdf-86a0-e76831d6f1a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/Login_MCV_link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

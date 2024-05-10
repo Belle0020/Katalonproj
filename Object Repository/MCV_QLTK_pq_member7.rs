@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MCV_QLTK_pq_QR</name>
+   <name>MCV_QLTK_pq_member7</name>
    <tag></tag>
-   <elementGuidId>32ce39be-58cc-4cda-b73e-ca48092d4502</elementGuidId>
+   <elementGuidId>4b9049bb-7440-4f6f-9aa3-6759295a26d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/div[9]/div/div[1]/label/span[2]</value>
+         <value>//*[@id=&quot;profile-edit&quot;]/table/tbody/tr[8]/td[2]/a[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -15,5 +15,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
