@@ -19,9 +19,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3be262b0-37c6-4e10-9dae-1cd810e1dc91</guid>
+      <guid>fb0f9d1e-c043-449d-84ed-b3cbc93fcb6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/MCV_QLTK</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3be262b0-37c6-4e10-9dae-1cd810e1dc91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -55,7 +62,7 @@
    <testCaseLink>
       <guid>f0c525a0-fc1f-4bdf-86a0-e76831d6f1a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCV_link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
