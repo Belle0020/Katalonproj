@@ -25,3 +25,43 @@ WebUI.click(findTestObject('MCV_QLTK_option_ifTK'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('MCV_QLTK_option_memTK'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_member8'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('MCV_QLTK_pq_btn_save8'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_QR8'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_btn_save8'))
+
+WebUI.click(findTestObject('MCV_QLTK_pq_member9'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_GD9'))
+
+WebUI.scrollToElement(findTestObject('MCV_QLTK_pq_btn_save9'), 0)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_btn_save9'))
+
+WebUI.click(findTestObject('MCV_QLTK_pq_member7'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_Chiho7'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('MCV_QLTK_pq_btn_save7'), 0)
+
+WebUI.click(findTestObject('MCV_QLTK_pq_btn_save7'))
+

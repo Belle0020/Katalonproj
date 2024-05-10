@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_MCVmember</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2c6fb80-7b13-4029-9e9b-442a72e5eec2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>014316a1-1106-4381-b0b7-743933445467</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b50b57b1-e504-48ff-b52c-804b7a96db09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eabdb072-ada0-4c85-9d22-d367df345c7f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>014316a1-1106-4381-b0b7-743933445467</id>
+      <masked>true</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b50b57b1-e504-48ff-b52c-804b7a96db09</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eabdb072-ada0-4c85-9d22-d367df345c7f</id>
+      <masked>true</masked>
+      <name>Validate</name>
+   </variable>
+</TestCaseEntity>
