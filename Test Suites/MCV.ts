@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MCV2</name>
+   <name>MCV</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,29 +10,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>30769258-9f67-475e-9abe-3f49538a270a</testSuiteGuid>
+   <testSuiteGuid>af190d80-0fd3-4b4d-b7cc-9a995f705ac8</testSuiteGuid>
    <testCaseLink>
-      <guid>db2f05f0-b919-4f9c-bd1a-9b3af35f3b3d</guid>
+      <guid>1ec440ee-56b5-4027-bef2-9c65c0f0fd7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb0f9d1e-c043-449d-84ed-b3cbc93fcb6e</guid>
+      <guid>afc3d293-3cad-4726-8a79-35bcdabc234b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MCV/MCV_QLTK</testCaseId>
+      <testCaseId>Test Cases/MCV/MCV_Hoantien</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c71fde68-1ca8-4e59-857a-b88f0e26013d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb7c4665-1745-4733-b0eb-3521c4db9f82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbb219ec-19a0-4854-91ff-01afacdf9663</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3be262b0-37c6-4e10-9dae-1cd810e1dc91</guid>
+      <guid>edc062fe-08b0-4031-be3f-53d3d6ab70c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>6d9aca29-a1a1-4c9b-a175-2007fa37865e</id>
+         <id>974b8e7a-56ef-41c6-9d43-73956fd612aa</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -41,29 +59,22 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <testDataLinkId>974b8e7a-56ef-41c6-9d43-73956fd612aa</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>User</value>
          <variableId>014316a1-1106-4381-b0b7-743933445467</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <testDataLinkId>974b8e7a-56ef-41c6-9d43-73956fd612aa</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>b50b57b1-e504-48ff-b52c-804b7a96db09</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6d9aca29-a1a1-4c9b-a175-2007fa37865e</testDataLinkId>
+         <testDataLinkId>974b8e7a-56ef-41c6-9d43-73956fd612aa</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Validate</value>
          <variableId>eabdb072-ada0-4c85-9d22-d367df345c7f</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f0c525a0-fc1f-4bdf-86a0-e76831d6f1a9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/MCV/Login_MCV_link</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MCV_login_iframe</name>
+   <name>MCV_QLHT_input_magiaodich</name>
    <tag></tag>
-   <elementGuidId>04168a49-77c4-4919-9a07-c5608ea150b7</elementGuidId>
+   <elementGuidId>e23d08b5-9719-401d-b2dd-0b381521cbd6</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[1]/div[2]/div/span/input</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/header/nav</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
