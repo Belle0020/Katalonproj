@@ -33,10 +33,22 @@ WebUI.click(findTestObject('MCV_login_member_btn_login'))
 
 WebUI.click(findTestObject('MCV_login_dieuhuong'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.verifyTextNotPresent(Validate, false)
+WebUI.switchToFrame(findTestObject('MCV_iframe_home'), 5)
 
-WebUI.delay(3)
+WebUI.verifyTextPresent(Validate, false)
 
+WebUI.delay(5)
+
+// Tài khoản thành viên đại lý - Quyền quản lý giao dịch
+WebUI.navigateToUrl('https://stg-mcv2.9pay.mobi/transactions')
+
+// Tài khoản thành viên đại lý - Quyền quản lý giao dịch chi nhánh
+WebUI.navigateToUrl('https://stg-mcv2.9pay.mobi/disbursement/request')
+
+// Tài khoản thành viên đại lý - Quyền quản lý QR code
+WebUI.navigateToUrl('https://stg-mcv2.9pay.mobi/QR/list')
+
+WebUI.closeBrowser()
 

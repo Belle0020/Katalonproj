@@ -4,5 +4,6 @@
    <name>MCV_QLTK</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e5760277-2eba-4286-b2a5-22d4b986ad65</testCaseGuid>
 </TestCaseEntity>

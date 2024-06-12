@@ -4,5 +4,6 @@
    <name>Login_MCV</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8548289a-33e9-432d-9c92-6179363b06f1</testCaseGuid>
 </TestCaseEntity>
