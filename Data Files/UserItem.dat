@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>UserItem</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>112cb2bc-a204-4e71-a0b1-3b10b6d9dc4a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>plmcv_member_8 Plmcv%4012345678 Danh+s%C3%A1ch+QR+Code https%3A%2F%2Fstg-mcv2.9pay.mobi%2Fdisbursement%2Frequest</data>
+   <data>plmcv_member_7 Plmcv%401234567 Chuy%E1%BB%83n+ti%E1%BB%81n+247 https%3A%2F%2F9pay.vn%2F</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>User</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Password</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Validate</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>URL</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -50,34 +50,34 @@
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>688b3218-4d35-4138-8478-39ab163df8b9</id>
+         <id>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Dataloginmember</testDataId>
+         <testDataId>Data Files/UserItem</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>688b3218-4d35-4138-8478-39ab163df8b9</testDataLinkId>
+         <testDataLinkId>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>User</value>
          <variableId>014316a1-1106-4381-b0b7-743933445467</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>688b3218-4d35-4138-8478-39ab163df8b9</testDataLinkId>
+         <testDataLinkId>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>b50b57b1-e504-48ff-b52c-804b7a96db09</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>688b3218-4d35-4138-8478-39ab163df8b9</testDataLinkId>
+         <testDataLinkId>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Validate</value>
          <variableId>eabdb072-ada0-4c85-9d22-d367df345c7f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>688b3218-4d35-4138-8478-39ab163df8b9</testDataLinkId>
+         <testDataLinkId>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>URL</value>
          <variableId>597ac01b-642f-45e1-8fb8-f541d022cef6</variableId>

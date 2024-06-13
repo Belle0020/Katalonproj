@@ -34,10 +34,7 @@ textValidate = textValidate.trim()
 println(textValidate)
 WebUI.verifyTextPresent(textValidate, false)
 
-WebUI.delay(3)
-
 WebUI.navigateToUrl(url)
-
-
+WebUI.delay(3)
 WebUI.closeBrowser()
 
