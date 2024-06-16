@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>UserItem</name>
+   <name>MAGIAODICH</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
@@ -9,26 +9,26 @@
    <dataFileGUID>112cb2bc-a204-4e71-a0b1-3b10b6d9dc4a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>plmcv_member_8 Plmcv%4012345678 Danh+s%C3%A1ch+QR+Code https%3A%2F%2Fstg-mcv2.9pay.mobi%2Fdisbursement%2Frequest</data>
-   <data>plmcv_member_7 Plmcv%401234567 Chuy%E1%BB%83n+ti%E1%BB%81n+247 https%3A%2F%2Fstg-mcv2.9pay.mobi%2Fqr%2Fdashboard</data>
+   <data>null null hoantien M%C3%A3+giao+d%E1%BB%8Bch+l%C3%A0+b%E1%BA%AFt+bu%E1%BB%99c+</data>
+   <data>63237673720692 1000000 hoantien null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>User</name>
+      <name>magiaodich</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>Password</name>
+      <name>sotien</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>Validate</name>
+      <name>lydo</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
-      <name>URL</name>
+      <name>validate</name>
       <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

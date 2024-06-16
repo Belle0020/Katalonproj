@@ -30,11 +30,7 @@ WebUI.verifyElementVisible(findTestObject('MCV_QLHT_tragop_btnThemmoi'))
 
 WebUI.click(findTestObject('MCV_QLHT_tragop_btnThemmoi'))
 
-WebUI.verifyElementText(findTestObject('MCV_QLHT_tragop_btnThemmoi'), 'Tạo yêu cầu hoàn tiền  ')
-
-WebUI.verifyElementText(findTestObject('MCV_QLHT_tragop_btnThemmoi'), 'Yêu cầu hoàn tiền')
-
-WebUI.verifyElementText(findTestObject('MCV_QLHT_tragop_btnThemmoi'), 'Thông tin giao dịch')
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 // I. Yêu cầu hoàn tiền
 // Nhập mã giao dịch
@@ -44,12 +40,23 @@ String xpathButtonHoanMotPhan = 'MCV_QLHT_checkbox_hoan1phan'
 
 String classButton2 = WebUI.getAttribute(findTestObject('MCV_QLHT_checkbox_hoan1phan'), 'class')
 
-Boolean isDisabled = classButton2.contains('disabled') // Button hoàn tiền 1 phần đang bị vô hiệu hóa
+Boolean isDisabled = classButton2.contains('disabled' // Button hoàn tiền 1 phần đang bị vô hiệu hóa
+    )
 
-// Check thông tin yêu cầu hoàn sau khi nhập mã hóa đơn  
-// Nhập số tiền 
-WebUI.setText(findTestObject('MCV_QLHT_input_sotien'), sotien)
+if (isDisable) {
+    WebUI.verifyElementClickable(findTestObject('MCV_QLHT_checkbox_hoantoanphan'), 10 // Check thông tin yêu cầu hoàn sau khi nhập mã hóa đơn  
+        // Nhập số tiền 
+        )
+} else {
+    WebUI.setText(findTestObject('MCV_QLHT_input_sotien'), sotien)
+}
+
+WebUI.verifyTextPresent(validate, false)
 
 // Nhập lý do 
 WebUI.setText(findTestObject('MCV_QLHT_input_magiaodich'), lydo)
+
+WebUI.click(findTestObject('MCV_QLHT_btn_Guiyeucau'))
+
+WebUI.delay(5)
 

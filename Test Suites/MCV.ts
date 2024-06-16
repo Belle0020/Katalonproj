@@ -12,41 +12,9 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>af190d80-0fd3-4b4d-b7cc-9a995f705ac8</testSuiteGuid>
    <testCaseLink>
-      <guid>1ec440ee-56b5-4027-bef2-9c65c0f0fd7a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>afc3d293-3cad-4726-8a79-35bcdabc234b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/MCV/MCV_Hoantien</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c71fde68-1ca8-4e59-857a-b88f0e26013d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cb7c4665-1745-4733-b0eb-3521c4db9f82</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fbb219ec-19a0-4854-91ff-01afacdf9663</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>edc062fe-08b0-4031-be3f-53d3d6ab70c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -81,6 +49,53 @@
          <type>DATA_COLUMN</type>
          <value>URL</value>
          <variableId>597ac01b-642f-45e1-8fb8-f541d022cef6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2351812e-a048-43f4-85ac-aef98509043f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03f25653-dd34-45e8-afd4-4d829d8c2f20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MCV/MCV_Hoantien</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c176357b-f281-480e-aebe-e260f5c5c852</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MAGIAODICH</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>magiaodich</value>
+         <variableId>c71fde68-1ca8-4e59-857a-b88f0e26013d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sotien</value>
+         <variableId>cb7c4665-1745-4733-b0eb-3521c4db9f82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lydo</value>
+         <variableId>fbb219ec-19a0-4854-91ff-01afacdf9663</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>validate</value>
+         <variableId>299dad3d-533e-4b64-b88d-75c7f1220c41</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

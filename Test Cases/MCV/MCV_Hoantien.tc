@@ -24,6 +24,12 @@
       <value></value>
       <variableId>fbb219ec-19a0-4854-91ff-01afacdf9663</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>299dad3d-533e-4b64-b88d-75c7f1220c41</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -44,5 +50,12 @@
       <id>fbb219ec-19a0-4854-91ff-01afacdf9663</id>
       <masked>true</masked>
       <name>lydo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>299dad3d-533e-4b64-b88d-75c7f1220c41</id>
+      <masked>true</masked>
+      <name>validate</name>
    </variable>
 </TestCaseEntity>
