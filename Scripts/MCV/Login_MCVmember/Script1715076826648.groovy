@@ -41,8 +41,6 @@ WebUI.click(findTestObject('Object Repository/MCV_menu'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MCV_menu1'))
-
 WebUI.delay(1)
 
 String textValidate = validate
