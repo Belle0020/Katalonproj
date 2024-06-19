@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>edc062fe-08b0-4031-be3f-53d3d6ab70c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -50,18 +50,24 @@
          <value>URL</value>
          <variableId>597ac01b-642f-45e1-8fb8-f541d022cef6</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>d0bae3c4-50e5-456b-a76f-f46aa0a002c7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>urlverify</value>
+         <variableId>e8ee6f26-3d76-46dd-989b-65b8d4fdaf32</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2351812e-a048-43f4-85ac-aef98509043f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>03f25653-dd34-45e8-afd4-4d829d8c2f20</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/MCV_Hoantien</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

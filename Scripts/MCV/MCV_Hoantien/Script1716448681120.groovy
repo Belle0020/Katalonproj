@@ -34,13 +34,19 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 // I. Yêu cầu hoàn tiền
 // Nhập mã giao dịch
-WebUI.sendKeys(findTestObject('MCV_QLHT_input_magiaodich'), magiaodich)
+String xpathmagiaodich = 'MCV_QLHT_input_magiaodich'
 
-WebUI.delay(10)
+if (xpathmagiaodich == null) {
+    WebUI.click(findTestObject('MCV_QLHT_input_magiaodich'))
 
-WebUI.acceptAlert()
+    WebUI.delay(5)
 
-WebUI.mouseOver(findTestObject('MCV_QLHT_checkbox_hoantoanphan'))
+    WebUI.verifyTextPresent('Mã giao dịch là bắt buộc', true)
+} else {
+    WebUI.sendKeys(findTestObject('MCV_QLHT_input_magiaodich'), magiaodich)
+
+    WebUI.mouseOver(findTestObject('MCV_QLHT_checkbox_yeucauhoanphiCĐTG'))
+}
 
 WebUI.verifyTextPresent(validate, false)
 

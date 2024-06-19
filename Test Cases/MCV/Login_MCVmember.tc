@@ -30,6 +30,12 @@
       <value></value>
       <variableId>597ac01b-642f-45e1-8fb8-f541d022cef6</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8ee6f26-3d76-46dd-989b-65b8d4fdaf32</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -57,5 +63,12 @@
       <id>597ac01b-642f-45e1-8fb8-f541d022cef6</id>
       <masked>true</masked>
       <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8ee6f26-3d76-46dd-989b-65b8d4fdaf32</id>
+      <masked>true</masked>
+      <name>urlverify</name>
    </variable>
 </TestCaseEntity>

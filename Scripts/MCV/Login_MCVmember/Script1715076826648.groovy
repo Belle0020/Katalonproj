@@ -41,8 +41,6 @@ WebUI.click(findTestObject('Object Repository/MCV_menu'))
 
 WebUI.delay(1)
 
-WebUI.delay(1)
-
 String textValidate = validate
 
 textValidate = textValidate.trim()
@@ -52,6 +50,10 @@ println(textValidate)
 WebUI.verifyTextPresent(textValidate, false)
 
 WebUI.navigateToUrl(url)
+
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent(urlverify, false)
 
 WebUI.delay(3)
 
