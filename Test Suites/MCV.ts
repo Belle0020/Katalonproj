@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>edc062fe-08b0-4031-be3f-53d3d6ab70c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MCV/Login_MCVmember</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -60,18 +60,18 @@
    <testCaseLink>
       <guid>2351812e-a048-43f4-85ac-aef98509043f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/MCV/Login_MCV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>03f25653-dd34-45e8-afd4-4d829d8c2f20</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/MCV/MCV_Hoantien</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c176357b-f281-480e-aebe-e260f5c5c852</id>
+         <id>036b9b58-7807-410b-953d-2d2090f62f7a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -80,25 +80,25 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <testDataLinkId>036b9b58-7807-410b-953d-2d2090f62f7a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>magiaodich</value>
          <variableId>c71fde68-1ca8-4e59-857a-b88f0e26013d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <testDataLinkId>036b9b58-7807-410b-953d-2d2090f62f7a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>sotien</value>
          <variableId>cb7c4665-1745-4733-b0eb-3521c4db9f82</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <testDataLinkId>036b9b58-7807-410b-953d-2d2090f62f7a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>lydo</value>
          <variableId>fbb219ec-19a0-4854-91ff-01afacdf9663</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c176357b-f281-480e-aebe-e260f5c5c852</testDataLinkId>
+         <testDataLinkId>036b9b58-7807-410b-953d-2d2090f62f7a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>validate</value>
          <variableId>299dad3d-533e-4b64-b88d-75c7f1220c41</variableId>

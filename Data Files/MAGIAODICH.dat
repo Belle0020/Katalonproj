@@ -9,26 +9,27 @@
    <dataFileGUID>112cb2bc-a204-4e71-a0b1-3b10b6d9dc4a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>63237673720692 1000000 hoantien Y%C3%AAu+c%E1%BA%A7u+ho%C3%A0n+ph%C3%AD+chuy%E1%BB%83n+%C4%91%E1%BB%95i+tr%E1%BA%A3+g%C3%B3p</data>
+   <data>null null null M%C3%A3+giao+d%E1%BB%8Bch+l%C3%A0+b%E1%BA%AFt+bu%E1%BB%99c</data>
+   <data>63237673720692 1000000 hoantien null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>magiaodich</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>sotien</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>lydo</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>validate</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
