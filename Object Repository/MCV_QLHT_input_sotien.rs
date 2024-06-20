@@ -6,11 +6,11 @@
    <elementGuidId>85dba2a0-a88c-43f0-9802-403cedcd5980</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(@class, 'ant-form-item-children')]//input[@min='1000']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[5]/div[2]/div/span/input</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[8]/div[2]/div/span/textarea</value>
+         <value>//span[contains(@class, 'ant-form-item-children')]//textarea</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

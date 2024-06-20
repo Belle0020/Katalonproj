@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div[1]/button</value>
+         <value>//div[contains(@class, 'ant-col') and contains(@class, 'ant-col-12')]//button[contains(@class, 'ant-btn') and contains(@class, 'ant-btn-primary')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

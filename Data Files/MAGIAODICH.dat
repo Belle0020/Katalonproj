@@ -9,27 +9,26 @@
    <dataFileGUID>112cb2bc-a204-4e71-a0b1-3b10b6d9dc4a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null null null M%C3%A3+giao+d%E1%BB%8Bch+l%C3%A0+b%E1%BA%AFt+bu%E1%BB%99c</data>
-   <data>63237673720692 1000000 hoantien null</data>
+   <data>63627103008872 2000000 hoan+tien null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>magiaodich</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>sotien</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>lydo</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>validate</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

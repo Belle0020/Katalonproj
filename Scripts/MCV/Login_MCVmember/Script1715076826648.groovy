@@ -47,13 +47,13 @@ textValidate = textValidate.trim()
 
 println(textValidate)
 
-WebUI.verifyTextPresent(textValidate, false)
+WebUI.verifyTextPresent(textValidate, false)//Show modul quyền được phân quyền 
 
 WebUI.navigateToUrl(url)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent(urlverify, false)
+WebUI.verifyTextPresent(urlverify, false)//Không show modul nào chỉ trở về màn dashboard
 
 WebUI.delay(3)
 

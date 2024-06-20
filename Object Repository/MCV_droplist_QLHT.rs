@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;nav-item-refund&quot;]/a</value>
+         <value>//*[@id=&quot;nav-item-refund&quot;]/a/i[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

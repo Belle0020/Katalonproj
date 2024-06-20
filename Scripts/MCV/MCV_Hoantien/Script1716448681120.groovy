@@ -38,6 +38,9 @@ WebUI.sendKeys(findTestObject('MCV_QLHT_input_magiaodich'), magiaodich)
 
 WebUI.click(findTestObject('MCV_QLHT_click'))
 
+WebUI.delay(10)
+
+// Verify mã giao dich sau khi nhập mã
 WebUI.verifyTextPresent(validate, false)
 
 /*String xpathButtonHoanMotPhan = 'MCV_QLHT_checkbox_hoan1phan'
@@ -67,4 +70,7 @@ WebUI.sendKeys(findTestObject('MCV_QLHT_input_lydo'), lydo)
 WebUI.click(findTestObject('MCV_QLHT_btn_Guiyeucau'))
 
 WebUI.delay(5)
+
+//Trở về màn yêu cầu trả góp với trạng thái chờ duyệt
+WebUI.verifyElementText(findTestObject('MCV_QLHT_tragop'), 'Quản lý yêu cầu hoàn tiền trả góp')
 
